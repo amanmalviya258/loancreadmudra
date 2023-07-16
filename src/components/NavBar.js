@@ -19,7 +19,7 @@ const NavBar = () => {
           backgroundColor: "white",
         }}
       >
-        <Container>
+        <Container >
           <Toolbar>
             <Box
               display="flex"

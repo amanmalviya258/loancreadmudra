@@ -17,12 +17,7 @@ const ApplyLoan = () => {
           display: "flex",
         }}
       >
-        <Typography
-          variant="h4"
-          color={"white"}
-          sx={{ fontWeight: "900" }}
-          fontFamily="Inter, sans-serif"
-        >
+        <Typography variant="h4" color={"white"} sx={{ fontWeight: "900" }} fontFamily="Inter, sans-serif">
           Apply For A Personal Loan <br />
           Online With{" "}
           <span style={{ color: "#5AB56B" }}>
@@ -30,15 +25,10 @@ const ApplyLoan = () => {
             Documentation
           </span>
         </Typography>
-
         <Button variant="contained" color="success" sx={{ color: "white", marginLeft: "100px" }}>
           Apply Now
         </Button>
-        <img
-          src="https://credmudra.com/assets/images/ple_banner_img.webp"
-          height={"100%"}
-          alt="discover"
-        />
+        <img src="https://credmudra.com/assets/images/ple_banner_img.webp" height={"100%"} alt="discover" />
       </Box>
     </Container>
   );
